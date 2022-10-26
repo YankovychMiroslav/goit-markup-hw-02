@@ -1,5 +1,5 @@
-.body {
-  font-family: 'Roboto', verdana, sans-serif;
+body {
+  font-family: 'Roboto', Verdana, sans-serif;
 }
 
 .list {
@@ -13,6 +13,8 @@
 /* ------------------HAEDER---------------- */
 
 .logo {
+  font-family: 'Raleway';
+  font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: calc(16 / 12);
@@ -61,7 +63,7 @@
   font-size: 14px;
   line-height: calc(16 / 12);
   letter-spacing: 0.02em;
-  color: #2196f3;
+  color: #757575;
 }
 .header-tel:hover,
 .header-E-mail:focus {
@@ -69,7 +71,7 @@
 }
 /* ------------------HAEDER---------------- */
 
-/* ------------------hero---------------- */
+/* ------------------h1---------------- */
 
 .header {
   background-color: #2f303a;
@@ -84,4 +86,39 @@
   color: #ffffff;
 }
 .header-btn {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: calc(16 / 12);
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  cursor: pointer;
+  background-color: #2196f3;
+}
+
+/* ------------------featore ---------------- */
+.featore {
+}
+.featore-list {
+}
+.list {
+}
+.featore-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #212121;
+}
+.featore-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: calc(24 / 14);
+  letter-spacing: 0.03em;
+  color: #757575;
 }
