@@ -316,7 +316,9 @@ body {
 }
 .portfolio-btn:hover,
 .portfolio-btn:focus {
-  color: #2196f3;
+  color: #ffffff;
+  border: transparent;
+  background: #2196f3;
 }
 
 /* ------------------progecr---------------- */
