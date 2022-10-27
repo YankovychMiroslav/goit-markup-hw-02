@@ -58,6 +58,10 @@ body {
   letter-spacing: 0.02em;
   color: #757575;
 }
+.header-tel:hover,
+.header-tel:focus {
+  color: #2196f3;
+}
 .header-E-mail {
   font-weight: 500;
   font-size: 14px;
@@ -65,7 +69,7 @@ body {
   letter-spacing: 0.02em;
   color: #757575;
 }
-.header-tel:hover,
+.header-E-mail:hover,
 .header-E-mail:focus {
   color: #2196f3;
 }
@@ -188,20 +192,34 @@ body {
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
-
   color: #ffffff;
 }
+.footer-gps:hover,
+.footer-gps:focus {
+  color: #2196f3;
+}
 .footer-E-mail {
+  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: calc(24 / 14);
   letter-spacing: 0.02em;
   color: #757575;
 }
+.footer-E-mail:hover,
+.footer-E-mail:focus {
+  color: #2196f3;
+}
+
 .footer-tel {
+  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: calc(24 / 14);
   letter-spacing: 0.02em;
   color: #757575;
+}
+.footer-tel:hover,
+.footer-tel:focus {
+  color: #2196f3;
 }
