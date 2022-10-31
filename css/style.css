@@ -45,13 +45,12 @@ body {
   letter-spacing: 0.02em;
   color: var(--text-title-color);
 }
-.alert {
-  color: var(--link-focus-color);
-}
-
 .nav-link:hover,
 .nav-link:focus {
   color: var(--link-focus-color);
+}
+.alert {
+  accent-color: var(--link-focus-color);
 }
 
 .contact-nav {
